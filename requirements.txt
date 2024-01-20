@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+ipykernel
+flask
+seaborn
+-e .
+xgboost
+lightgbm
+catboost
+dvc
+mlflow
