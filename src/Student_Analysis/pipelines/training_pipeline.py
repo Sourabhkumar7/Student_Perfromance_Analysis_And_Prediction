@@ -3,7 +3,7 @@ from src.Student_Analysis.components.data_ingestion import DataIngestion
 from src.Student_Analysis.components.data_transformation import DataTransformation
 
 from src.Student_Analysis.components.model_trainer import ModelTrainer
-
+from src.Student_Analysis.components.model_evaluation import ModelEvaluation
 
 
 
@@ -24,4 +24,7 @@ train_arr,test_arr=data_transformation.initialize_data_transformation(train_data
 
 model_trainer_obj=ModelTrainer()
 model_trainer_obj.initate_model_training(train_arr,test_arr)
+
+model_track=ModelEvaluation()
+model_track.initiate_model_evaluation(train_arr,test_arr)
 

@@ -34,9 +34,10 @@ class ModelEvaluation:
 
             #mlflow.set_registry_uri("https://dagshub.com/sunny.savita/fsdsmendtoend.mlflow")
             
-            tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             
-            print(tracking_url_type_store)
+            #tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
+            
+            #print(tracking_url_type_store)
 
 
 
@@ -53,16 +54,16 @@ class ModelEvaluation:
 
                 # this condition is for the dagshub
                 # Model registry does not work with file store
-                if tracking_url_type_store != "file":
+                #if tracking_url_type_store != "file":
 
                     # Register the model
                     # There are other ways to use the Model Registry, which depends on the use case,
                     # please refer to the doc for more information:
                     # https://mlflow.org/docs/latest/model-registry.html#api-workflow
-                    mlflow.sklearn.log_model(model, "model", registered_model_name="ml_model")
+                   # mlflow.sklearn.log_model(model, "model", registered_model_name="ml_model")
                 # it is for the local 
-                else:
-                    mlflow.sklearn.log_model(model, "model")
+                #else:
+                   # mlflow.sklearn.log_model(model, "model")
 
 
                 

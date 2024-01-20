@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/da6cbc6897ea46928733c2a06009c9ed/artifacts
+end_time: 1705759891990
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: da6cbc6897ea46928733c2a06009c9ed
+run_name: adaptable-wolf-169
+run_uuid: da6cbc6897ea46928733c2a06009c9ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705759889165
+status: 4
+tags: []
+user_id: ASUS

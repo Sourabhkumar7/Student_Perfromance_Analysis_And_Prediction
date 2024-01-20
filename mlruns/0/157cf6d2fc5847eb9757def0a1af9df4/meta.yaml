@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/157cf6d2fc5847eb9757def0a1af9df4/artifacts
+end_time: 1705760083630
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 157cf6d2fc5847eb9757def0a1af9df4
+run_name: languid-shad-707
+run_uuid: 157cf6d2fc5847eb9757def0a1af9df4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705760083605
+status: 3
+tags: []
+user_id: ASUS
